@@ -1,0 +1,6 @@
+numpy >= 1.19.0
+matplotlib >= 2.2.2
+spglib
+phonopy
+ase
+pymatgen
