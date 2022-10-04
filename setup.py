@@ -9,7 +9,7 @@ setup(
     author_email="Mohammad.Bagheri@oulu.fi",
     url="https://ramandb.oulu.fi",
     python_requires=">=3.7",
-    install_requires=["numpy>=1.15.0","matplotlib>=2.2.2", "ase"],
+    install_requires=["numpy>=1.19.0","matplotlib>=2.2.2", "ase"],
     packages=[
         "corapy",
         "corapy.spectrum",
