@@ -1,8 +1,8 @@
 # CoRaPy (Computational Raman Python tools)
 
-Python tools for computational raman studies
+Python tools for computational raman studies (Developing in progress...)
 
-Developing in progress and the only tools for plotting Raman spectra available which works with tensor files downloaded from the [Computational Raman Database](https://ramandb.oulu.fi/)
+Right now, only tools for plotting Raman spectra available which works with tensor files downloaded from the [Computational Raman Database](https://ramandb.oulu.fi/)
 
 ## Installation
 
@@ -56,6 +56,5 @@ Then you can use `corapy-plot -h` to see how to use.
 There is an example in the example directory that can be used like this:
 
 ```bash
-cd example
-corapy-plot -i mp-1434.yaml -w 4.0
+corapy-plot -i example/mp-1434.yaml
 ```
