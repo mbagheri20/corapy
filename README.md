@@ -31,14 +31,14 @@ Get the source code from github:
 
 ```bash
 git clone https://github.com/mbagheri20/corapy.git
-cd corapy
 ```
 
 You can use following command for installing system requirements packages:
 ```bash
+cd corapy
 pip install -r requirements.txt
 ```
-Go to the directory with source files and run this command:
+To install the code go to the directory with source files and run this command:
 
 ```bash
 pip install -e .  
