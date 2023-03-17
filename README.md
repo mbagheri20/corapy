@@ -14,7 +14,6 @@ Developing in progress and the only tools for plotting Raman spectra available w
 * ASE
 * matplotlib
 
-```
 
 ### Developer Installation
 
