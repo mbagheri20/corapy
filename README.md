@@ -58,3 +58,27 @@ There is an example in the example directory that can be used like this:
 ```bash
 corapy-plot -i example/mp-1434.yaml
 ```
+
+## How to cite
+
+If you have used Corapy, please cite the following article:
+
+- "High-throughput computation of Raman spectra from first principles",
+
+  Mohammad Bagheri & Hannu-Pekka Komsa, Sci. Data, **10**, 80 (2023)
+
+  https://doi.org/10.1038/s41597-023-01988-5 (Open access)
+
+  ```
+  @article{corapy,
+     doi = {10.1038/s41597-023-01988-5},
+     url = {https://doi.org/10.1038/s41597-023-01988-5},
+     journal = {Scientific Data},
+     year = {2023},
+     title = {High-throughput computation of Raman spectra from first principles},
+     author = {Mohammad Bagheri and Hannu-Pekka Komsa},
+     pages = {80},
+     issue = {14},
+     volume = {10}
+  }
+  ```
