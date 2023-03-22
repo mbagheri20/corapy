@@ -6,7 +6,7 @@ Right now, only tools for plotting Raman spectra available which works with tens
 
 ## Installation
 
-### system requirements
+### System requirements
 * Python 3.X
 * Numpy
 * Scipy
@@ -51,7 +51,7 @@ Go to material page you would like to plot spectra on [Computational Raman Datab
 Then you can use `corapy-plot -h` to see how to use.
 
 
-## examples
+## Example
 
 There is an example in the example directory that can be used like this:
 
