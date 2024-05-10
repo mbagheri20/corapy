@@ -1,0 +1,10 @@
+MPAPI_KEY: API_KEY_MATERIAL_PROJECT  #for extracting structre information more info > https://next-gen.materialsproject.org/api
+#PMG_VASP_PSP_DIR: PATH_TO_VASP_PSEUDOPOTENTIALS_FOR_PYMATGEN  # more info > https://pymatgen.org/installation.html#potcar-setup
+SLURM_CONFIGURATION:
+- 
+  job-name: name_for_job
+  account: account_info
+  partition: partition
+  time: reserved_time
+  cores: number_of_cores
+  mem-per-cpu: memory
