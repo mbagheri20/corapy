@@ -3,3 +3,5 @@ matplotlib >= 2.2.2
 spglib
 phonopy
 ase
+pymatgen
+mp_api
