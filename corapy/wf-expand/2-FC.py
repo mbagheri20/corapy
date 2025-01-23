@@ -34,7 +34,8 @@ struct = Structure.from_file('POSCAR')
 
 # Find sc matrix
 uc, _ = read_crystal_structure("POSCAR", interface_mode='vasp')
-dataset = get_symmetry_dataset(uc, symprec=1e-5, angle_tolerance=-1.0, hall_number=0)
+uc_cell = (uc.cell, uc.scaled_positions, uc.numbers)
+dataset = get_symmetry_dataset(uc_cell, symprec=1e-5, angle_tolerance=-1.0, hall_number=0)
 nmk = estimate_supercell_matrix(dataset,max_num_atoms=150)
 
 
